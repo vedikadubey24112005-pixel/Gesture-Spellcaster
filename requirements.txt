@@ -1,0 +1,7 @@
+# Works on Python 3.10 - 3.13.  pip picks the right versions automatically.
+numpy>=1.23,<2 ; python_version < "3.13"
+numpy>=2.1     ; python_version >= "3.13"
+opencv-python>=4.8
+pygame>=2.6.1
+mediapipe==0.10.14  ; python_version < "3.13"
+mediapipe>=0.10.31  ; python_version >= "3.13"
